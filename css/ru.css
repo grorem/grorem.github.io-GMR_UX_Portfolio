@@ -1,0 +1,280 @@
+@font-face {
+  font-family: "font";
+  src: url("CaslonRoman.eot");
+  src: local("?"),
+    url("CaslonRoman.woff") format("woff"),
+    url("CaslonRoman.ttf") format("truetype"),
+    url("CaslonRoman.svg") format("svg");
+
+
+  }
+
+
+body{
+
+	font-family: font;
+	color: #333333;
+	background: url('../img/dust.png');
+
+}
+
+
+p{
+
+font-size:16;
+
+}
+
+h1{
+	font-family: font;
+	color:	#ffffff;
+	font-size: 100px;
+
+}
+
+
+
+h2{
+	font-family: font;
+	color: #ffffff;
+	font-size: 42px
+
+}
+
+
+
+h3{
+	font-family: font;
+	color: #333333;
+
+}
+
+
+h5{
+
+	margin-top: 15px;
+	font-family: font;
+	color: #ffffff;
+
+}
+
+
+
+.nav li a{
+
+	color: #ffffff;
+	font-size: 18px;
+
+}
+
+
+
+.header{
+	width:100%;
+	height:100%;
+	padding:100px;
+	text-align: center; 
+	background: url('../img/ut.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerOverlay{
+	width:100%;
+	height:450px;
+	background: #033E6B;
+	
+	
+}
+
+.main{
+	
+	
+	min-width:40%;
+	
+	height:100%;
+	padding:25px;
+}
+
+
+
+
+
+
+.donate{
+	position:fixed;
+	top:150;
+	right:0;
+	background-color: #FF9200;
+	height:70px;
+	width:175px;
+	padding:5px;
+	text-align:center;
+	z-index:1000;
+	margin-right: 0px;
+	-webkit-transform-style: background;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: background;
+    -moz-transition: 0.5s;
+
+
+}
+
+
+.donate:hover{
+
+background: #033E6B;
+
+	-webkit-transform-style: background;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: background;
+    -moz-transition: 0.5s;
+}
+
+.donate h4{
+	font-family: font;
+	color: #ffffff;
+
+
+}
+
+.story{
+
+	margin-bottom:50px;
+
+}
+
+
+.tilt {
+
+-webkit-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+writing-mode: tb-rl;
+
+margin-bottom:-50px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align:center;
+  }
+
+  p{
+
+  	
+
+  }
+
+  .story{
+
+padding-right:20px;
+
+  }
+
+img{
+
+	max-width:100%;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align:center;
+  }
+
+  p{
+
+  	
+
+  }
+
+  .story{
+
+padding-right:20px;
+
+  }
+
+.story img{
+
+max-width:100px;
+
+  }
+
+
+img{
+
+	max-width:100%;
+
+}
+
+
+}
+
+
+.sides {
+
+	margin-top:55px;
+
+}
+
+
+.contactInfo {
+
+	margin-left:150px;
+
+}
+
+
+.contactArea {
+
+	margin-top:150px;
+
+}
+
+
+
+.footer{
+	width:100%;
+	height:100%;
+	padding:10%;
+	 color: white;
+	line-height: 25px;
+	background: url('../img/zionChain2.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contactForms{
+	padding:5px;
+	width:300px;
+	margin:10px;
+
+}
+
+
+.submit{
+	margin-left:10px;
+	width:300px;
+	
+}
